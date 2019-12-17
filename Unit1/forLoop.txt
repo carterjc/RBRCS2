@@ -1,0 +1,51 @@
+﻿forLoop
+
+
+Follow the directions below:
+- Open PyCharm
+- Create a file ‘forLoop.py’
+
+
+Complete the following:
+# Create a for loop that prints numbers 1 through 5 (including 5)
+
+
+
+
+# Create a for loop that prints numbers 10 through 100 (including 100)
+
+
+
+
+# Create a for loop that prints numbers 25 to 1 descending (inclusive)
+
+
+
+
+# Create a for loop that prints all even numbers from 1 to 50 (inclusive)
+
+
+# Create a for loop that prints every 5th number from 1 to 100 (inclusive)
+
+
+
+
+# Create a for loop that prints your name 10 times
+
+
+
+
+# Create a custom for loop !!
+
+
+
+
+BONUS:
+- Create a custom for loop that prints whatever you’d like
+        * All items printed, must be on the same line
+        * Each item printed must be separated by a comma, except for the 
+  last item
+
+
+Deliverables:
+- forLoop.py

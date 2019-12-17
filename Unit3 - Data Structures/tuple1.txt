@@ -1,0 +1,86 @@
+﻿tuple1
+
+
+Navigate to your DataStructures folder in PyCharm
+
+
+Create a file named tuple1.py
+
+
+Complete the following:
+
+
+# Part 1:
+# A function ‘printObj( obj )’ that will print any list/tuple passed 
+# as an argument
+
+
+# A Tuple ‘numTuple’ that contains 4 numbers of your choice
+
+
+# A Tuple ‘nameTuple’ that contains 4 names of your choice
+
+
+# A list ‘numList’ that contains 4 numbers of your choice
+
+
+# A list ‘nameList’ that contains 4 names of your choice
+
+
+# Using printObj(), print your two Tuples
+
+
+# Using printObj(), print your two Lists
+
+
+# Create print statements identifying the index of the third item in 
+# numTuple, nameTuple, numList and nameList
+
+
+# Create print statements identifying the value of the second item in 
+# numTuple, nameTuple, numList and nameList
+
+
+# Create a statement that checks to see if your numTuple contains the # number 30, and print the result
+
+
+# Create a statement that checks to see if your nameTuple contains 
+# ‘Mike’ and print the result
+
+
+# Create a statement that checks to see if your numList contains the 
+# number 30 and print the result
+
+
+# Create a statement that checks to see if your nameList contains your 
+# name and print the result
+
+
+
+
+#Part 2: 
+# Create objects that will store two of your lists/tuples, but in  
+# reverse. Print these objects using printObj()
+
+
+# Create objects that will store the other two of your lists/tuples, 
+# but sorted. Print these objects using printObj()
+
+
+# Create a tuple with 10 random numbers in it, from 1-4 inclusive. 
+# Using .count(), find out how many 3’s exist in this tuple, and print
+
+
+# Turn nameTuple into a list newNameList using an abstract function
+
+
+# Print newNameList reversed and sorted
+
+
+BONUS I:
+Create a function ‘tupleRemove(item, tuple)’ that will return a new tuple, with the item passed as a parameter removed an item from its tuple
+
+
+BONUS II:
+Create a tuple with 5 strings
+Turn this tuple into a list, and print each value in the list reversed

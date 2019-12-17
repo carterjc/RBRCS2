@@ -1,0 +1,61 @@
+﻿list2
+
+
+Navigate to your DataStructures folder in PyCharm
+
+
+Create a file named list2.py
+
+
+Complete the following:
+
+
+# Part 1: 
+# Create a list ‘numList’ that contains 4 numbers of your choice
+
+
+# Create a function that prints the entire list, and run that function
+
+
+# Add five numbers to the list, print the list
+
+
+# Using the del keyword, remove any two numbers from the list, print 
+# the list
+
+
+# Create a function ‘addFive’ that adds five to each number while 
+# printing the list
+
+
+# Create a function ‘multList’ that takes in a list, and returns the 
+# product of all numbers within the list 
+
+
+# Create a function ‘minNum’ that returns the smallest number in the 
+# list
+
+
+# Create a function ‘maxNum’ that returns the largest number in the 
+# list
+
+
+________________
+
+
+BONUS*
+Create a function ‘addCommas(list)’ that adds commas to every thousandth place of each number in a list. Results should not end with a comma. This function shall return a new list, or change the list passed as an argument
+
+
+
+
+myList = [5000, 1000000000000, 400000000000, 400]
+myNewList = addCommas(myList)
+for i in myNewList:
+   print(i)
+
+
+>>5,000
+>>1,000,000,000,000
+>>400,000,000,000
+>>400

@@ -1,0 +1,46 @@
+﻿functions2
+
+
+Navigate to your Unit 2 folder in PyCharm
+
+
+Create a file named functions2.py
+
+
+Follow the directions below:
+
+
+#Part 1:
+# Create three global variables ‘x’, ‘y’ and ‘z’ and declare them with 
+# an integer value of your choice
+
+
+# Define three functions that will print a local variable with the 
+# same name as the above variables and a different value
+
+
+# Print the global variables ‘x’, ‘y’ and ‘z’ and call the three 
+# functions you’ve just created
+
+
+# Define three different functions (that require a parameter) to 
+# change the global variable and print
+
+
+# Print the global variables ‘x’, ‘y’ and ‘z’ again, and call the 
+# three new functions you’ve just created, while commenting out the 
+# previous three
+
+
+#Part 2:
+# Create four variables { name, verb, place, food } and set them as 
+# empty strings
+
+
+# Define four functions { updateName(), updateVerb(), updatePlace(), 
+# updateFood() } that each take in one parameter and will update their 
+# respective global variables
+
+
+# Define a fifth function { myStory() } that will tell a story using 
+# the updated global variables

@@ -1,0 +1,52 @@
+﻿dictionary1
+
+
+Navigate to your DataStructures folder in PyCharm
+Create a file named dictionary1.py
+
+
+Complete the following:
+
+
+# Part 1
+# Create a dictionary ‘colorInt’ with ascending integers as keys 
+# beginning at zero and five of your favorite colors as values
+
+
+# Print this dictionary using a for loop (try using .format!())
+
+
+# Create another dictionary ‘colorString’ with strings as keys, and 
+# colors as values. The keys shall be the first letter of the color. 
+# please stick to primary and secondary colors to avoid key confusion
+
+
+# Print this dictionary using a for loop
+
+
+# Part 2:
+# Create a function ‘printDictionary’ that takes in a dictionary as a 
+# parameter and prints it
+
+
+# Print a value inside both dictionaries by searching for a key
+
+
+# Print the length of both dictionaries
+
+
+# Add three more colors to colorInt and print
+
+
+# Delete one key/value pair of colorInt and print
+
+
+# Change one of the values using .update()
+
+
+# Part 3:
+# Create a function that takes in two parameters (dictionary, 
+# search_value)
+
+
+# Print a formatted statement if the search_value is found inside the # dictionary or an error message if no result is found

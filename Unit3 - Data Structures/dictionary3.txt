@@ -1,0 +1,63 @@
+﻿dictionary3
+
+
+Navigate to your DataStructures folder in PyCharm
+Create a file named dictionary3.py
+
+
+
+
+In dictionary3 we will create an application that will allow a user to ‘shop’ at a grocery store.  We will provide the program with grocery items & quantity and price for each item.  The user will be able to add items to a shopping cart, and check out with a grand total.
+
+
+Complete the following:
+
+
+# Create a dictionary ‘groceryStore’ that contains a dictionary of 5 
+# items
+# groceryStore keys will be numbers
+# Dictionary items will have k/v pairs that include:
+#         ‘itemName’: ‘apple’,
+#         ‘itemPrice’: 6,
+#         ‘itemQuant’: 10
+
+
+
+
+# Create a variable ‘grandTotal’ to hold the value of each item as we # compile them into a shopping cart
+
+
+# Create a list ‘shoppingCart’ that will store our items being 
+# purchased
+
+
+# Create a function ‘addToCart’ that will take in items we wish to add 
+# to our cart. 
+
+
+________________
+
+
+# Complete all items from ONE option below (CHALLENGE YOURSELF!): 
+
+
+
+# OPTION 3(DIFFICULT):
+# This function must perform same operations as option 1 and 2
+# This function must also check and see if the item we wish to buy 
+# exists in the grocery store, giving an error message if it does not # exist
+
+# OPTION 4(VERY DIFFICULT):
+# This function must contain all previous options
+# This function must also check and see if there is enough stock on 
+# the item we wish to buy
+# Provide an error message telling the user how many are available if # the amount requested exceeds the amount in stock
+
+# ** ALL OPTIONS:
+# Create a function ‘checkOut’ that creates a printed tally and total # price of our cart items
+
+
+# BONUS
+# Add the following functionality to checkOut:
+# Provide a subtotal of each item instead of listing all items
+#          Ex: apples x 4 @ $6 each

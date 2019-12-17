@@ -1,0 +1,49 @@
+﻿functions3
+
+
+Navigate to your folder in PyCharm named functions
+
+
+Create a file named functions3.py
+
+
+Follow the directions below:
+
+
+# Part 1:
+# Create a function ‘maxNum’ that takes in 3 integer arguments and 
+# returns the maximum (store it in a variable to print)
+
+
+# Create a function ‘sumAll’ that takes in 5 integer arguments and 
+# returns the sum (store it in a variable to print)
+
+
+# Create a function ‘longestWord’ that takes in three string arguments 
+# and returns the longest { len() } (store it in a variable to print)
+
+
+
+
+# Part 2:
+# VOLUME OF A CYLINDER
+# area of base x height
+# (area = pi x r-squared)
+
+
+# Create functions that will take in parameters, and print the volume 
+# of a cylinder. You must use a return statement in at least one 
+# function. Store your result in a variable and { cylAreaFunc(), 
+# cylVolumeFunc() }
+
+
+# Create similar functions for volume of a cube, sphere, & rectangle 
+# prism
+
+
+
+
+# BONUS
+# Create a Calculator program that computes calculations for a user
+# Create friendly input statements to aid the usage of your program
+# Calculator program must include at least 10 computations

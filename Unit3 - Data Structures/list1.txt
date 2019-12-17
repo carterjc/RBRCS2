@@ -1,0 +1,55 @@
+﻿list1
+
+
+Create a folder in PyCharm named:
+Unit 3: Data Structures
+
+
+Create a file named list1.py
+
+
+Complete the following:
+
+
+# Create a list ‘nameList’ that contains 4 names of your choice
+
+
+# Create a for loop that prints nameList
+
+
+# Create a print statement that prints the third name in the list
+
+
+# Create a print statement that prints the length of your list
+
+
+# Create a function ‘printList’ that prints the entire list
+
+
+# Append three names to your list, print the list
+
+
+# Using .remove( ), remove the first two names of your list, print the 
+# list
+
+
+# Update the value of the first item  in your list, print the list
+
+
+# Using the del keyword, remove the last name on your list, print the 
+# list
+
+
+# Create a function that prints a message including all the names in 
+# the list
+
+
+BONUS
+Create a function shiftByX(x) that takes an integer parameter.
+This function will shift each item of a list over by the given parameter. No values shall be lost, no new values shall be added.
+
+
+Eg:
+myList = ['first', 'second', 'third', 'fourth']
+shiftByX(2)
+>> ['third', 'fourth', 'first', 'second']

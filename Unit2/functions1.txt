@@ -1,0 +1,45 @@
+﻿functions1
+
+
+Create a folder in PyCharm named:
+Unit 2: Functions
+
+
+Create a file named functions1.py
+
+
+Complete the following functions:
+
+
+# Part 1: 
+# Create a function ‘myName’ that prints your name
+
+
+# Create a function ‘myFav’ that prints your favorite color
+
+
+# Create a function ‘myHobby’ that prints your favorite hobby
+
+
+# Part 2:
+# Create a function ‘todaysDate’ that takes parameters ‘m’, ‘d’, & ‘y’ 
+# and prints any given date in the format of your choice
+
+
+# Create a function ‘f2c’ that takes a parameter ‘fTemp’
+# converts a temp from farenheit to celcius
+
+
+# Create a function ‘ageCalc’ that takes parameters ‘m’, ‘d’, ‘y’ and 
+# figures out a users age (consider the current month of the year as 
+# well)
+
+
+# BONUS:
+
+
+# Create a function ‘factorial’ that takes in one parameter and prints 
+# its factorial (parameter must be an integer)
+
+
+# Eg: factorial(7) -> The factorial of 7 is 5040

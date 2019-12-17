@@ -1,0 +1,123 @@
+﻿class2
+
+
+
+
+- Navigate to your project folder: Unit 4 Classes
+- Create file class2.py
+
+
+Complete the following:
+
+
+# Part 1
+# Create a Car class
+
+
+# Create an __init__ method which takes in a Cars year, make, and 
+# model as parameters
+
+
+# In the __init__ method, set a field odo_miles to 0
+
+
+# In the __init__ method, set a field registered to False
+
+
+# Create a honk() method that beeps your horn! [in a print statement]
+
+
+# Create a car_fax() method that gives you information about your car 
+# in a print statement
+        # year, make, model, odo_miles
+
+
+# Create a drive(miles) method that takes in a parameter to determine 
+# how many miles you will drive
+# This method will perform the following:
+#        Check to see if the car is registered
+#        (If a car is not registered, it cannot drive! Print a message to 
+#        the user displaying its registration status)
+#        Check to see if miles is a positive number
+#        Update the car’s odo_miles with the amount of miles driven
+
+
+# Create a register() method that will register your car to drive
+# (Cars that are NOT registered cannot drive anywhere!)
+
+
+
+
+
+
+
+
+
+
+________________
+
+
+# Part 2
+# Create three Car objects
+
+
+# Call the honk() method on your first object instance
+
+
+# Call the drive() method on your second object instance 
+# (You should receive an error message here!)
+
+
+# Call the car_fax() method on your third object instance
+
+
+# Register all of your objects using the register() method
+
+
+# Drive all of your objects a various amount of miles using the 
+# drive() method
+
+
+
+
+# Part 3
+# Update the __init__ method:
+#        Create a field gas_miles and set it to 500
+
+
+# Update the drive() method:
+#        Deducts the proper amount of gas_miles from our car, while still 
+#        updating the amount of miles driven to the odometer.
+#         Do not allow a car to drive if it does not have enough gas miles!
+#        If a car runs out of gas while driving, (miles is greater 
+#        than gas_miles) only update the odo_miles to the reflect the 
+#        miles actually driven, despite the miles attempted to drive (set 
+#         by the methods argument).
+
+
+# Create a get_gas() method to fill up your gas tank! 
+
+
+
+
+
+
+________________
+
+
+# BONUS
+# Create a field gas_in_tank and set it to 15
+# (This program will assume we can drive with a fuel efficiency of 
+# 30 miles per gallon)
+
+
+# Update the drive() method:
+#        Deducts the proper amount of gas_in_tank from our car based on 
+#        fuel efficiency (comment out gas_miles)
+#         All other drive method features should retain their integrity
+
+
+# Update the get_gas(gallons) method:
+#        Adds the proper amount of gas to gas_in_tank from our car based 
+#        on a parameter gallons
+#         Providing too much gas should print an error

@@ -1,0 +1,38 @@
+﻿guessNum
+
+
+Follow the directions below:
+- Open PyCharm
+- Create a file ‘guessNum.py’
+
+
+Complete the following:
+Create your own number guessing game using for loops, while loops, and if statements
+
+
+Part 1
+- Your program must select a random number for a user to guess
+- The random number must remain the same throughout the entire program
+- Allow a user to input guesses to the console
+- If the user guesses correctly, the program ends
+- If the user does not guess correctly, the program must continue to ask the user for a guess until the correct number is guessed
+
+
+
+
+Part 2
+- Give hints to the user based on the number guessed
+        - IE: Cold, Warm, Hot
+
+
+
+
+BONUS
+- Limit the users guesses to 10
+- Remind them of how many guesses remain
+
+
+
+
+Deliverables:
+- guessNum.py

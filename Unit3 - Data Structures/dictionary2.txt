@@ -1,0 +1,66 @@
+﻿dictionary2
+
+
+
+
+Navigate to your DataStructures folder in PyCharm
+Create a file named dictionary2.py
+
+
+Complete the following:
+
+
+# Part 1:
+# Create a dictionary ‘class_roster’
+# Supply class_roster with 5 entries that follow the format below:
+#
+#         { ‘name’: ‘Matthew’, ‘age’: 15, ‘favSubject’: ‘Math’ }
+#         { ‘name’: ‘Jessica’, ‘age’: 15, ‘favSubject’: ‘English’ }
+
+
+
+
+# Print the first element of class_roster
+
+
+# Print only the name of the first element of class_rosters
+
+
+# Print each item of the dictionary
+
+
+# Create a function ‘printClassRoster’ to print class_roster
+
+
+# Change the first students’ favorite subject to ‘Computer Science’
+
+
+# printClassRoster()
+
+
+# Increase Jessica’s age by 1 and printClassRoster()
+
+
+# Add a ‘totalClasses’ key to each object, set it to 5
+
+
+# Update printClassRoster() to handle totalClasses
+
+
+# printClassRoster()
+
+
+________________
+
+
+# Part 2:
+
+
+# Add a LIST of subjects under the key ‘subjectList’, include various # subjects of your choice
+
+
+# Update ‘totalClasses’ to provide a more accurate total per student 
+# based on subjectList
+
+
+# printClassRoster()

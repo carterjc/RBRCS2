@@ -1,0 +1,72 @@
+﻿class1
+
+
+- Create a project folder: Unit 4 Classes
+- Create files as instructed below
+
+
+Complete the following:
+
+
+- Part 1
+- Watch the following video about Classes in Python
+
+
+# Part 2
+# Create a file named class1.py
+# Create a Student class
+# Create an __init__ method for the Student class
+# Provide the following fields to each Student object:
+# first_name
+# last_name
+        # age
+        # fav_subject
+
+
+# Provide the Student class the following methods:
+
+
+# greeting() 
+# this will send a message to the console with the Students full name, 
+# age, and favorite subject included
+
+
+# birthday()
+# this will add one year to the Students age and print a Happy 
+# Birthday message displaying their new age
+
+
+# my_fav_subject()
+# this will return the Students favorite subject
+
+
+
+
+# In class1.py provide the following
+
+
+# Instantiate 5 Student objects, at least two shall have an age of 15
+
+
+# Print the first name of two objects
+
+
+# Print the age of two different objects
+
+
+# Print the last name of two different objects
+
+
+# Create a list student_list with all of your Student objects
+
+
+# Loop over this list and call the greeting() method during each 
+# iteration
+
+
+# Create another loop, and only print the names and ages of students 
+# that have an age greater than 15
+
+
+# Call the birthday method on students who do not have an age older 
+# than 15, until they are at least 16, and repeat the previous loop

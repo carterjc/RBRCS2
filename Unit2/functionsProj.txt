@@ -1,0 +1,47 @@
+﻿functionsProj
+
+
+
+
+Using Functions with Mad Libs
+Create a program that plays Mad Libs with a user!
+
+
+
+Requirements:
+- Allow the user to select a Mad Libs story they’d like to complete
+
+
+- Create descriptive input statements for the user to answer a series of questions in order to complete a Mad Libs paragraph
+> Mad Libs program must include at least three Mad Libs Stories
+> Choose stories from the Mad Libs Folder
+
+
+- Once the story is complete, the story should print to the screen, including what the user input
+
+
+- Must include at least 4 functions, and at least one loop
+
+
+- Program shall end gracefully (exit code 0)
+
+
+- Program must include comments describing all functions used
+
+
+- Create an outline before coding, present your program to the class, and perform a code review (Sample Outline)
+
+
+- Create a README document, describing your program to a user (as if they know nothing about programming!) (Sample README)
+        
+
+
+Deliverables & Grading (50 pts):
+- Project Outline (10 pts)
+- Project Code (20 pts):
+        - Working code? (5 pts)
+        - Included three or more stories? (5 pts)
+        - Used loop and functions? (5 pts)
+        - Proper comments? (5 pts)
+- README (10 pts)
+- Presentation (10 pts)

@@ -1,0 +1,110 @@
+﻿class3
+
+
+- Navigate to your project folder: Unit 4 Classes
+- Create files class3.py, robots.py
+- Look over Part 5 of the slides (link)
+
+
+Complete the following:
+
+
+# Part 1 (to be completed in class3.py)
+# Create a Robot class and the following within the class:
+
+
+# Create a field robot_population, and set it to zero
+# Create a field robot_list, and set it to an empty list
+
+
+# Create the __init__ method which includes the following:
+# Takes name as a parameter used as a value for field robot_name
+        # Creates a field battery set to 100
+        # Creates a field damage set to 200
+        # Creates a field deactivated set to False
+# Creates a field robot_num set to the current robot_population 
+        # Increases the robot_population
+        # Add self to robot_list
+        # prints an initialization statement of your choice
+
+
+
+
+# Create a method robot_info()
+        # Will print the following about the robot:
+        #        robot_name, robot_num, battery_power, damage, deactivated
+
+
+# Create a method charge_robot()
+# Should only work for robots not deactivated
+# Increase battery by 25
+# (battery cannot exceed 100)
+
+
+# Create a method laser_attack(robot)
+        # (Attack a robot passed as an argument!)
+        # Should only work for robots not deactivated, that have battery 
+# greater than 0
+        # Decrease battery by 10
+        # Decrease damage of robot by 20
+        # If robot damage goes below 1 deactivate it and set its 
+# battery to 0
+        # Print an attack statement
+
+
+# Create a method special_attack(robot)
+        # (Attack a robot passed as an argument!)
+        # Should only work for robots not deactivated, that have battery 
+# greater than 0
+        # Decrease battery by 25
+        # Decrease damage of robot by 50
+        # If robot damage goes below 1 deactivate it and set its 
+# battery to 0
+        # Print a special attack statement
+
+
+
+
+# Part 2 (to be completed in robot.py)
+# You may use the starter code from [here] or write code from scratch
+# import the Robot class from class3.py
+# Instantiate two Robot objects
+# Test the robot_info() and charge_robot() methods
+# (Charge robot should display an error!)
+# Using both robots, use the various methods to attack and charge 
+# until one robot is deactivated!
+
+
+
+
+________________
+
+
+# BONUS I (to be completed in class3.py)
+# Create a field robot_list below robot_population
+# Update the init method, to each robot to the robot_list
+# Create a @classmethod display_all_robots that prints a formatted 
+# statement about each robot in the list
+
+
+# BONUS II (to be completed in robot.py)
+# PRECONDITION: You must have at least two Robot objects
+# Create a while loop that will perform the following:
+#        Allow a user to select a robot for battle
+#        Prompt the user to perform certain robot actions
+#        Create random automated actions for an “Opponent Robot” that will 
+#        occur after the user has selected an action
+
+
+# BONUS III (to be completed in robot.py)
+# PRECONDITION: You must have Bonus II completed
+# Create two lists of robots (User vs CPU)
+# Create a while loop that will perform the following:
+#        Allow a user to select a robot for battle
+#        Prompt the user to perform certain robot actions
+#        Create random automated actions for an “Opponent Robot” that will 
+#        occur after the user has selected an action
+#        If an opponent robot is deactivated, the following robot in the 
+#        opponent’s list will become the opponent
+#        If your robot becomes deactivated, the following robot in your 
+#        list will become the actionable robot
