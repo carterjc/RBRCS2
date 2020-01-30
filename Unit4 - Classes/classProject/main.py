@@ -9,12 +9,12 @@ import time
 import random
 
 
-c_num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+c_num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]  # defines possible indexes for clients (based on c_bg)
 g_time = 1  # starts in 2006 Q1, represents quarters since
 end = False
 
 
-def clear():
+def clear():  # Function that clears the console
     if name == 'nt':
         _ = system('cls')
 
@@ -166,9 +166,9 @@ We are sorry to hear that. Lehman Brothers will make efforts to improve these ar
         q2_1 = input("Do you plan on exiting your position? (y/n)\n")
         clear()
         if q2_1 == "y":
-            exit = input("Press (y) to exit your position and retire.\n")
+            exit_g = input("Press (y) to exit your position and retire.\n")
             clear()
-            if exit == "y":
+            if exit_g == "y":
                 g_exit(player)
         elif q2_1 == "n":
             print("""
