@@ -23,8 +23,7 @@ class Client:
         pay_sentiment = "good" if self.income > 80000 else "alright, but it could be better"
         gender = "male" if self.gender == 1 else "female"
         risk = "high" if self.risk == 3 else ("medium" if self.risk == 2 else "low")
-        print(f"""
-Hey there. I'm {self.name}. I guess I'll tell you a little about myself.
+        print(f"""Hey there. I'm {self.name}. I guess I'll tell you a little about myself.
 So, I'm {self.age} and a {self.occupation}. It's pretty {job_sentiment}. It pays {pay_sentiment}.
 Anyways, I'm looking to make some more money and here are my financials.\n\n
 Income: ${self.income:,d}
