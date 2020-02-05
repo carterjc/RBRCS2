@@ -1,0 +1,41 @@
+﻿file2
+
+
+- Navigate to project folder: FileIO
+- import story.txt, names.txt into your filetree
+- Create file file2.py
+
+
+Complete the following:
+# Write a program that will read files, and manipulate its data
+
+
+# Part 1
+# Create an object ‘story’ for the data inside story.txt
+# Write code to only read the first line of story
+# Write code to only read the last line of story
+# Write code to only read even lines of story
+# Write code to only read odd lines of story
+
+
+# Part 2
+# Create an object ‘name_list’ for the data inside names.txt
+# Write code or create a function to print all the names from 
+# name_list
+# Write code to print only the names that start with ‘i’ from 
+# name_list using startswith()
+# Write code to sort all the names from name_list, and store them 
+# under a new file ‘names_sorted.txt’
+# Manually add three more names to the end of ‘names.txt’
+# Sort, and update ‘names_sorted.txt’
+# Create a function add_name(name) that takes in a name as a 
+# parameter, and adds that name to ‘names.txt’, sorts the names, and 
+# updates ‘names_sorted.txt’
+
+
+# BONUS
+# Create a Rock Paper Scissor game, or game of your choice
+# Create a High Score list text file that sorts by high score
+# Names that are present in the list shall not be duplicated
+# If a high score is achieved by a current user on the list, replace 
+# that high score
