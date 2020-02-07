@@ -2,6 +2,10 @@
 # file2.py
 
 
+import random
+import time
+
+
 def clean(word):
     print(f"\n\n----{word}----\n\n")
 
@@ -120,3 +124,63 @@ add_name("Carter")
 # Names that are present in the list shall not be duplicated
 # If a high score is achieved by a current user on the list, replace
 # that high score
+
+def log_score(number):
+    save = input("Do you want to save your score? (y/n)")
+    if save.lower() == "y":
+        name = str(input("What is your name?"))
+        with open("scores", "a") as scores_f:
+            scores_f.write(f"{name} - {str(number)}\n")
+        with open("high_scores", "r") as h_scores:
+            h_scores.seek(0)
+            scores = []  # single line didn't work
+            for l in h_scores.readlines():
+                if l == "\n":
+                    continue
+                scores.append((l.split(" - ")[1], l.split(" - ")[2]))
+            placed = False
+            for i in range(len(scores)):
+                if number > int(scores[i][1]):
+                    scores.insert(i, (name, number))
+                    print(f"Wow! You are now in position {i + 1} on the leaderboard!")
+                    placed = True
+                    break
+            if len(scores) == 0:
+                scores.append((name, number))
+                print(f"Wow! You are now in position 1 on the leaderboard!")
+            elif len(scores) <= 5 and not placed:
+                scores.append((name, number))
+                print(f"Wow! You are now in position {len(scores)} on the leaderboard!")
+        with open("high_scores", "w") as h_scores:
+            for i in range(len(scores)):
+                if i > 5:
+                    break
+                num = str(scores[i][1]).strip("\n")
+                h_scores.write(f"{i + 1} - {scores[i][0]} - {num}\n")
+    else:
+        print("Hope you had fun!")
+    if input("Do you want to play again? (y/n)").lower() == "y":
+        high_roller()
+    else:
+        print("Bye!")
+
+
+def high_roller():
+    print("""
+Welcome to High Roller! In this exciting game, press start to roll a number. The higher the number,
+the better! Good luck.
+    """)
+    input("Press enter to continue:")
+    print("Rolling in\n3...")
+    time.sleep(.1)
+    print("2...")
+    time.sleep(.1)
+    print("1...")
+    time.sleep(.1)
+    print("Go")
+    number = random.randint(0, 10000)
+    print(f"Your number is {number}.")
+    log_score(number)
+
+
+high_roller()
