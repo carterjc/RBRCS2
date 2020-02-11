@@ -43,20 +43,37 @@ with open("story.txt", "r") as story:
 # Create an object ‘name_list’ for the data inside names.txt
 
 def sort_names(values):
-    values = list(filter(lambda a: a != "\n", values))
+    values = list(filter(lambda a: a.strip("\n") != "", values))
     values.sort(key=lambda x: x[0].lower())
 
     with open("names_sorted.txt", "w") as output:
         for name in values:
             print(name.strip("\n"))
-            output.write(name)
+            output.write(name.strip("\n") + "\n")
 
 
 def add_name(name):
     with open("names.txt", "a+") as f:
-        f.write("\n" + name + "\n")
         f.seek(0)
         lines = f.readlines()
+        if lines[-1].endswith("\n"):
+            f.write(name + "\n")
+        else:
+            f.write("\n" + name + "\n")
+    sort_names(lines)
+
+
+def delete_name(name):
+    with open("names.txt", "r") as f:
+        f.seek(0)
+        lines = f.readlines()
+        lines = [l.strip("\n") for l in lines]
+    if name in lines:
+        lines.remove(name)
+    with open("names.txt", "w") as f:
+        f.seek(0)
+        for line in lines:
+            f.write(line + "\n")
     sort_names(lines)
 
 
@@ -116,6 +133,11 @@ with open("names.txt", "r+") as name_list:
 clean("add_name")
 
 add_name("Carter")
+add_name("Francis")
+
+clean("del_name")
+
+delete_name("Jessie")
 
 
 # BONUS
