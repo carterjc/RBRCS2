@@ -16,8 +16,6 @@ def gather_data():
     capitals = open("capitals.csv", "r")
     global cap_count_dat
     cap_count_dat = capitals.readlines()
-    # Either store in RAM? (locally) or read file for specific lines each time
-    # Undecided on efficiency
     capitals.close()
 
 
@@ -27,6 +25,9 @@ def user_prompt():
         print("Invalid input. Please enter a capital or country.")
         return
     elif True in [char.isdigit() for char in enter]:
+        print("Invalid input. Please enter a capital or country.")
+        return
+    elif enter == "":
         print("Invalid input. Please enter a capital or country.")
         return
     for index in range(country_map[enter[0].upper()] - 1, len(cap_count_dat)):
