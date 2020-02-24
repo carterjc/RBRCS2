@@ -1,0 +1,66 @@
+﻿api1
+
+
+- Create a project folder: Unit 6 APIs
+- Create a file api1.py
+- Follow the instructions from [here] to import requests library
+
+
+Complete the following:
+
+
+# Part 1
+# At the top of your file import requests, and json
+
+
+# Using the example from the API Slides [link] create a request to 
+# http://api.open-notify.org/astros.json
+
+
+# Print the response
+
+
+# Create a loop that will iterate over the response object only 
+# printing its keys
+
+
+# Create a loop that will iterate over the “people” array of the 
+# response object and only print the “name” values
+
+
+
+
+________________
+
+
+# Part 2
+# Using this joke API create a program that will make a random joke 
+# generator
+
+
+# This program shall take user input to ask a user if they would like 
+# to hear a joke
+
+
+# Step 1: Read at the API documentation
+# Step 2: Find the endpoint that will return one random joke, and test 
+# in a browser window
+# Step 3: Create an API call that will return a random joke
+# Step 4: Test your code to see if you get the proper results
+# Step 5: Extract the ‘setup’ and the ‘punchline’ from each joke
+# Step 6: 
+#        Create a loop that will prompt the user to hear a joke
+#         If the user replies YES (or a positive response of your choice) 
+#         display the setup, and after the user hits ENTER display the 
+#        punchline
+#        If the user replies NO (or a negative response of your choice) 
+#         exit the program
+#         All other inputs should print an error for invalid input
+
+
+
+
+# BONUS 
+# Create a joke class that will return a new joke using a method
+# Allow the user three attempts to guess the punchline before it is 
+# revealed
