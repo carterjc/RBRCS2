@@ -1,0 +1,85 @@
+﻿api2
+
+
+- Create a project folder: Unit 6 APIs
+- Create a file api2.py
+
+
+Complete the following:
+
+
+/*
+ As a class, divide yourselves up into three groups
+ INDIVIDUALLY work on three different parts of api2
+ After ~27 min each “group” shall switch to another part
+ to avoid the entire class working on the same API concurrently
+ 
+ Each student should write their own code for each part!
+ Helping your neighbor is encouraged, but this is not a group 
+ assignment
+
+
+ If any of the APIs take a while to load, wait 3 minutes and then try 
+ again
+
+
+ EG: 
+Group A: 0min to 27min -> Part 1
+Group B: 0min to 27min -> Part 2
+Group C: 0min to 27min -> Part 3
+
+
+Group A: 28min to 55min -> Part 2
+Group B: 28min to 55min -> Part 3
+Group C: 28min to 55min -> Part 1
+
+
+Group A: 56min to 82min -> Part 3
+Group B: 56min to 82min -> Part 1
+Group C: 56min to 82min -> Part 2
+*/
+
+
+________________
+
+
+# Part 1
+# POKEMON!
+# Using the PokeAPI [https://pokeapi.co/api/v2/] complete the 
+# following:
+
+
+# Display the total amount of Pokemon available to the API
+# Print the id of the Pokemon Diglett
+# Print the height of Diglett
+# Print all abilities of Diglett
+# Print the Pokemon type of Diglett
+# Print the id, height, abilities and type of your favorite Pokemon!
+
+
+# Part 2
+# Lyrics Search
+# Using the lyrics.ovh API [https://api.lyrics.ovh/v1] complete the 
+# following:
+
+
+# Print the lyrics to Bohemian Rhapsody by Queen
+# Print the first three words of each line of Bohemian Rhapsody
+# Write the lyrics to three of your favorite songs to a file, with 
+# the song title as the filename
+
+
+# Part 3
+# Star Wars!
+# Using the Star Wars API [https://swapi.co/api/] complete the 
+# following:
+
+
+# Print Luke Skywalkers eye color
+# Print the height of Obi-Wan Kenobi
+# Print the terrain of the planet Naboo
+# Print the vehicle names from all Star Wars films
+# Print the cargo capacity of the ‘X 34 Landspeeder’
+# Print the film title the ‘X 34 Landspeeder’ was from
+# Locate the text that appears at the start of each film (As seen 
+# below) Print each text along with the film title above it
