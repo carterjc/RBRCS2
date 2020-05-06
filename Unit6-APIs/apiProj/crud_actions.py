@@ -13,7 +13,7 @@ def get_all(url, desc, f_term, s_term, t_term):
         print(f"{item[f_term]} - {item[s_term]}, {item[t_term]}\n")
 
 
-# Gives an in-depth summary of one employee
+# Gives an in-depth summary of one item
 def get_one(url, desc, f_term, s_term, t_term):
     # Output item IDs
     res = requests.get(base_url + url).json()

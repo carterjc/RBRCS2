@@ -14,6 +14,7 @@ def line_br(word):
     print(f"\n\n----{word}----\n\n")
 
 
+# Main loop once logged in
 def landing():
     line_br("Main")
     print("""0 - Sign out
@@ -102,6 +103,7 @@ def landing():
         print("Invalid input or insufficient permissions: Try again.")
 
 
+# Welcome function
 def welcome(user):
     # Allow MOTD alteration with .txt file or database addition?
     print(f"""
@@ -116,12 +118,14 @@ Welcome, {user["emp_fn"]} {user["emp_ln"]}!""")
         print("You have view only access")
 
 
+# Sign out function
 def sign_out():
     print("Successfully signed out!")
     global access
     access = -1
 
 
+# Sign in function
 def sign_in():
     email = input("Please enter your email address:")
     password = input("Please enter your password:")
@@ -152,6 +156,7 @@ def sign_in():
         welcome(login_user)
 
 
+# Main loop
 def main():
     print("""
 Welcome to the Employee Management System created by the developers at Costic Software Solutions!
